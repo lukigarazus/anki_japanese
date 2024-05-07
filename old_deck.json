@@ -1,0 +1,5058 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c214c69a-f591-11ee-98e1-0780a57cd84b",
+    "deck_config_uuid": "c214cabe-f591-11ee-98e1-0780a57cd84b",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "c214cabe-f591-11ee-98e1-0780a57cd84b",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": false,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 100,
+    "extendRev": 100,
+    "media_files": [],
+    "name": "Japanese",
+    "newLimit": null,
+    "newLimitToday": {
+        "limit": 200,
+        "today": 885
+    },
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (and reversed card)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ohayoo gozaimasu",
+                "good morning"
+            ],
+            "guid": "n=hpNq[^4P",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Konnichiwa",
+                "good afternoon"
+            ],
+            "guid": "Q{nDv8u/E0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Konbanwa",
+                "good evening"
+            ],
+            "guid": "M9ASMd`a-^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sayoonara",
+                "Good bye"
+            ],
+            "guid": "yu8{sWP(I.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaa, mata",
+                "see ya"
+            ],
+            "guid": "CV)?^]#}J.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Osaki ni shitsureeshimasu",
+                "sorry for leaving before you! (good bye at work...)"
+            ],
+            "guid": "xwbTJRN.2$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Otsukaresama deshita",
+                "Good work! (reply to good bye at work)"
+            ],
+            "guid": "mjg~=[Z|+w",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sumimasen",
+                "I'm sorry/ Excuse me/ Thank you"
+            ],
+            "guid": "JIl=&]iT=j",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name], imasu ka",
+                "is [name] present?"
+            ],
+            "guid": "tk4~TA4Z{t",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hai, imasu",
+                "Yes, present"
+            ],
+            "guid": "E^%Uzx3;MY",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Imasen",
+                "not present"
+            ],
+            "guid": "Iq=1)#0L2G",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Iie, mada desu",
+                "no, not here"
+            ],
+            "guid": "E+i83~xoa{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kiite kudasai",
+                "Listen please"
+            ],
+            "guid": "r)S?@qJp.f",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kaite kudasai",
+                "Write please"
+            ],
+            "guid": "JMTF0hU(]e",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Yonde kudasai",
+                "Read please"
+            ],
+            "guid": "iY[Lkyn!LW",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[number]-peeji o akete kudasai",
+                "please open page number [number]"
+            ],
+            "guid": "d.7@S6jG@E",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Itte kudasai",
+                "Speak please"
+            ],
+            "guid": "J;5}6.6`VF",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mite kudasai",
+                "look please/ watch please"
+            ],
+            "guid": "O|+5|&EnA2",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pea de hanashite kudasai",
+                "work together please"
+            ],
+            "guid": "PM3B5[9I95",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wakarimashita&nbsp;",
+                "understood"
+            ],
+            "guid": "rMr9t|cuyU",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wakarimasen",
+                "not understood/ I don't understand"
+            ],
+            "guid": "v2<B8O>81,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kantan desu",
+                "simple"
+            ],
+            "guid": "MgeG=(|Z*<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "muzukashii desu",
+                "difficult"
+            ],
+            "guid": "L=W0)3mPSW",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "daijoubu desu",
+                "it's ok"
+            ],
+            "guid": "xqHiJv@fb}",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jouzu desu",
+                "good job"
+            ],
+            "guid": "zW=o#]hk%=",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shukudai",
+                "homeword"
+            ],
+            "guid": "h+o0`Y|Txz",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "chigaimasu",
+                "not correct"
+            ],
+            "guid": "Fm*UsmrS;",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "damedesu",
+                "forbidden"
+            ],
+            "guid": "yXA,=I8n|5",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "oshii desu",
+                "almost good"
+            ],
+            "guid": "yau((X)EQ_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mouichido onegaishimasu",
+                "one more time"
+            ],
+            "guid": "rW|ebA76ED",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shitsumon ga arimasu",
+                "I have a question"
+            ],
+            "guid": "mC,bb[t5_-",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[word] wa nandesuka",
+                "what does [word] mean"
+            ],
+            "guid": "o&}=B|S<q[",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yukkuri ittekudasai",
+                "speak slowly"
+            ],
+            "guid": "fo!QNV9qV~",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kiotsukete kudasai",
+                "watch out"
+            ],
+            "guid": "P>)b!|l8Bz",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hajimemashite. [name] desu",
+                "nice to meet you, I'm [name]"
+            ],
+            "guid": "j}cdGa6S0&",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "onamae wa",
+                "what's your name?"
+            ],
+            "guid": "h^?fz[X=p%",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san desu ne. Doozo yoroshiku",
+                "nice to meet you [name]. nice to meet you"
+            ],
+            "guid": "v*6)<Y1I}}",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kyoushi",
+                "teacher"
+            ],
+            "guid": "hgDDUUm|)8",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gakusen",
+                ""
+            ],
+            "guid": "z38<4y0-#k",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shufu",
+                "housewife/husband"
+            ],
+            "guid": "FBAM5Fnwh|",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "enjinia",
+                "engineer"
+            ],
+            "guid": "n=8h|C=r(*",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "koomuin",
+                "government worker"
+            ],
+            "guid": "C^A*2Qqq$5",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaishain",
+                "private worker"
+            ],
+            "guid": "t{@x6K)|bj",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Oshigoto wa?",
+                "what do you do for a living?"
+            ],
+            "guid": "x:DF2?e`ms",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[profession] desu",
+                "l'm a [profession]"
+            ],
+            "guid": "Bopg9I((G/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "soo desu ka",
+                "I see, that makes sense"
+            ],
+            "guid": "f9{Kk/zM@4",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shashinka",
+                "photographer"
+            ],
+            "guid": "sj=P?^Q}|s",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Poorando",
+                "Poland"
+            ],
+            "guid": "ASA.)kh]S<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Doitsu",
+                "Germany"
+            ],
+            "guid": "G[G@/Y!0,$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Igirisu",
+                "England"
+            ],
+            "guid": "BF!|f/r2-K",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Furansu",
+                "France"
+            ],
+            "guid": "d@6o@(45[/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Roshia",
+                "Russia"
+            ],
+            "guid": "d_/1l}Kzk^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ukuraina",
+                "Ukraine"
+            ],
+            "guid": "AXDa]O1X^0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Supein",
+                "Spain"
+            ],
+            "guid": "x^V.eZBXH0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nihon",
+                "Japan"
+            ],
+            "guid": "n34U<?p)`n",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kankoku",
+                "South Korea"
+            ],
+            "guid": "H|8[J!(9.U",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Chuugoku",
+                "China"
+            ],
+            "guid": "r:E!ec0c/%",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Indo",
+                "India"
+            ],
+            "guid": "QtLxvd9A26",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Amerika",
+                "America"
+            ],
+            "guid": "dKes)JITzC",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kanada",
+                "Canada"
+            ],
+            "guid": "Og*{f+[gMp",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Oosutoraria",
+                "Australia"
+            ],
+            "guid": "ijf^Gj3+E@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nyuujiirando",
+                "New Zealand"
+            ],
+            "guid": "tgzJ$!]8eI",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Burajiru",
+                "Brazil"
+            ],
+            "guid": "CVPts[,G@w",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mekishiko",
+                "Mexico"
+            ],
+            "guid": "Od?SHxq+YX",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kuni",
+                "country"
+            ],
+            "guid": "x!h/Ip12uq",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Okuni wa?",
+                "Where are you from?"
+            ],
+            "guid": "Ek-CI!qLy%",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Iie, watashi wa [profession] janaidesu",
+                "no, I'm not a [profession]"
+            ],
+            "guid": "KZ~W=uUN4h",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[country] desu",
+                "I'm from [country]"
+            ],
+            "guid": "Nj{zf)fCX+",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa dochira kara desu ka",
+                "[name], where are you from?"
+            ],
+            "guid": "O>/<0|RXqn",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa [country] kara kimashita",
+                "I'm from [country]"
+            ],
+            "guid": "sX%$14H(%|",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa nanijin desu ka",
+                "[name] where are you from?"
+            ],
+            "guid": "Pgv0t@I@kF",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa [country]jin desu",
+                "I'm [nationality]"
+            ],
+            "guid": "q!d.40.SRK",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Eigo",
+                "English"
+            ],
+            "guid": "g-8Jsx^xd[",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hindigo",
+                "Hindi"
+            ],
+            "guid": "h@($Kz+x@?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Arabiago",
+                "Arabic"
+            ],
+            "guid": "tUu3]iC?h?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa nanigo ga dekimasu ka",
+                "which languages do you speak, [name]?"
+            ],
+            "guid": "eFdC_3)/K4",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa [language] to [language] ga dekimasu",
+                "I speak [language] and [language]"
+            ],
+            "guid": "P5.K_5<qIW",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa [language] ga dekimasu ka",
+                "do you speak [language], [name]?"
+            ],
+            "guid": "c7;_o->=T/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hai, watashi wa [language] ga dekimasu",
+                "Yes, I speak [language]"
+            ],
+            "guid": "cJ$alsgf09",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Iie, watashi wa [language] wa dekimasen",
+                "No, I don't speak [language]"
+            ],
+            "guid": "e4A`_:]e+A",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "PA: watashi wa enginia desu<br>PB: watashi mo enginia desu",
+                "PA: I'm an engineer<br>PB: I'm an engineer too"
+            ],
+            "guid": "kq@iT>a?L@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "PA: watashi wa eigo ga dekimasu<br>PB: watashi mo eigo go dekimasu",
+                "PA: I speak English<br>PB: I speak English too"
+            ],
+            "guid": "i#;,#Z`i~J",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "PA: watashi wa poorandogo ga dekimasu<br>PA: watashi wa eigo mo dekimasu",
+                "PA: I speak Polish<br>PA: I speak English too"
+            ],
+            "guid": "E8e1nftp{!",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[country]jin desu ka",
+                "are you [nationality]?"
+            ],
+            "guid": "hV<#l_Tz*r",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Iie, [country]jin janai desu",
+                "no, I'm not [nationality]"
+            ],
+            "guid": "ou/3^#ZIU&",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[country]jin desu",
+                "I'm [nationality]"
+            ],
+            "guid": "vOBw=BbOvU",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "zero / ree",
+                "zero"
+            ],
+            "guid": "vv8O*~)|&=",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ichi",
+                "one"
+            ],
+            "guid": "gFq@n6w(L,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ni",
+                "two"
+            ],
+            "guid": "d2m#=VyNc[",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "san",
+                "three"
+            ],
+            "guid": "xsp]2k>TT=",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yon",
+                "four"
+            ],
+            "guid": "A>QZkXg;.3",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "go",
+                "five"
+            ],
+            "guid": "b}p>Zf&{n<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "roku",
+                "six"
+            ],
+            "guid": "HLj2&ts,z>",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nana / shichi",
+                "seven"
+            ],
+            "guid": "C7TWv+@Q9h",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hachi",
+                "eight"
+            ],
+            "guid": "bv{S|CF25x",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kyuu",
+                "nine"
+            ],
+            "guid": "nXD|5%bSf<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "juu",
+                "ten"
+            ],
+            "guid": "mF6K6V(9:4",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nijuu",
+                "twenty"
+            ],
+            "guid": "j^Bhx}iu3(",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sanjuu",
+                "thirty"
+            ],
+            "guid": "iMt,koW9p6",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yonjuu",
+                "fourty"
+            ],
+            "guid": "fCQ~ZB(YL&",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gojuu",
+                "fifty&nbsp;"
+            ],
+            "guid": "oJ&IJB-ict",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rokujuu",
+                "sixty"
+            ],
+            "guid": "GT?l9AY^o!",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nanajuu",
+                "seventy"
+            ],
+            "guid": "dUmPzaz=p?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hachijuu",
+                "eighty"
+            ],
+            "guid": "O_$/gdu$#P",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kyuujuu",
+                "ninety"
+            ],
+            "guid": "DMa1{~i.<_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hyaku",
+                "hundred"
+            ],
+            "guid": "vll9|}rWSG",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "batsu",
+                "negative"
+            ],
+            "guid": "JU4w^>!P;[",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "maru",
+                "positive"
+            ],
+            "guid": "cJOf{MsRd3",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hagane no Renkinjutsushi",
+                "Alchemist of steel / Fullmetal alchemist"
+            ],
+            "guid": "v%30~/du_4",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hon",
+                "book"
+            ],
+            "guid": "F]m.|-!?TQ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tokei",
+                "clock"
+            ],
+            "guid": "hX`B81+`4A",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shinbun",
+                "newspaper"
+            ],
+            "guid": "d2WFn3^2*=",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kagi",
+                "key"
+            ],
+            "guid": "r+mR)DMUO{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaban",
+                "bag"
+            ],
+            "guid": "P5HkD:yW(>",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tsukue",
+                "desk"
+            ],
+            "guid": "z};_xSaoQw",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kuruma",
+                "car"
+            ],
+            "guid": "u?~qtP<tP?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "isu",
+                "chair"
+            ],
+            "guid": "nv5EwxE(r@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kore wa nandesuka",
+                "what is this?"
+            ],
+            "guid": "f`aQ/2:@PA",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sore wa nandesuka",
+                "what is that"
+            ],
+            "guid": "vr,#}b)I5w",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "are wa nandesuka",
+                "what is that over there?"
+            ],
+            "guid": "PQ=,~>hr8$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kotae",
+                "answer"
+            ],
+            "guid": "v<#qX4~Y|/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "akai",
+                "red (adj)"
+            ],
+            "guid": "uWUqC4B?ZB",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "aka",
+                "red (noun)"
+            ],
+            "guid": "o6*P_K_mG0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "eki",
+                "station (train, tram)"
+            ],
+            "guid": "uH*?=f)15{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ue",
+                "up, above"
+            ],
+            "guid": "A>@YA~}TsQ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "koko",
+                "here, this place"
+            ],
+            "guid": "LX3kT~+~>P",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kasa",
+                "umbrella"
+            ],
+            "guid": "y#zPYcSJg-",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "okashi",
+                "snacks"
+            ],
+            "guid": "FmUu-iyR:a",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ashi",
+                "foot, leg (no differentiation)"
+            ],
+            "guid": "j7HBs!;3G@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "uchi",
+                "house (rarely our company, our organisation)"
+            ],
+            "guid": "i(/pP9Qln?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kutsu",
+                "shoes"
+            ],
+            "guid": "vEr:&KUYEU",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "te",
+                "hand"
+            ],
+            "guid": "cldflfILq]",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "taiiku",
+                "physical education"
+            ],
+            "guid": "IDEAF4~9|F",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sakana",
+                "fish"
+            ],
+            "guid": "Olc~FEuYvZ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "inu",
+                "dog"
+            ],
+            "guid": "c%!Q>ng%W<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "neko",
+                "cat"
+            ],
+            "guid": "ADvZ<qtP9.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hashi",
+                "chopsticks"
+            ],
+            "guid": "uL:b)eX21S",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fune",
+                "boat"
+            ],
+            "guid": "tH]bcPoi8)",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hito",
+                "person/people"
+            ],
+            "guid": "sX>u*[L>;l",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hana",
+                "flower/nose"
+            ],
+            "guid": "b):7WCvQt(",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ningen",
+                "human being"
+            ],
+            "guid": "j7wh@r7-~t",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tokidoki",
+                "sometimes"
+            ],
+            "guid": "s[9eJa@vJP",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tasu",
+                "plus"
+            ],
+            "guid": "w^!hk[R*-0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hiku",
+                "minus"
+            ],
+            "guid": "G{EU!!hJ*%",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ichi tasu ichi wa ni",
+                "one plus one equals two"
+            ],
+            "guid": "u3`Lg;?R2Q",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sai",
+                "age"
+            ],
+            "guid": "lK|p9_I>R]",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "issai",
+                "one year old"
+            ],
+            "guid": "y(I~P&r3e^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ni sai",
+                "two years old"
+            ],
+            "guid": "N97}rfKAyy",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hassai",
+                "eight years old"
+            ],
+            "guid": "c72IFFziKS",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jussai",
+                "ten years old"
+            ],
+            "guid": "N-1UIq_Fi#",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hatachi",
+                "twenty years old"
+            ],
+            "guid": "BOSLicC>rn",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa nansai desu ka",
+                "how old are you, [name]?"
+            ],
+            "guid": "w|imje+oeQ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa [age] desu",
+                "I'm [age] years old"
+            ],
+            "guid": "#}]PoYsT:",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "futago",
+                "twin"
+            ],
+            "guid": "maF/N-2;4i",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sobo",
+                "my grandmother"
+            ],
+            "guid": "Cyz[2.2iEn",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sofu",
+                "my grandfather"
+            ],
+            "guid": "q-t?Fo[aBc",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "haha",
+                "my mom"
+            ],
+            "guid": "tA77X%6+zp",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "chichi",
+                "my dad"
+            ],
+            "guid": "D|I>2#MAU5",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ani",
+                "my older brother"
+            ],
+            "guid": "L(AH,,a]J.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ane",
+                "my older sister"
+            ],
+            "guid": "J*}z>D+J3e",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "otouto",
+                "my younger brother"
+            ],
+            "guid": "M=Ov^u$3&1",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "imouto",
+                "my younger sister"
+            ],
+            "guid": "l|gOw*!Q{m",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tsuma",
+                "my wife"
+            ],
+            "guid": "c5KO`&KIbo",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "otto",
+                "my husband"
+            ],
+            "guid": "OBmvE%4s9(",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kodomo",
+                "my child"
+            ],
+            "guid": "u1]WkDzaI[",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kazoku",
+                "family"
+            ],
+            "guid": "E{[Grom)-6",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "obaasan",
+                "someone's grandmother"
+            ],
+            "guid": "QvB+xRtDnJ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ojiisan",
+                "someone's grandfather"
+            ],
+            "guid": "fviN1r5q_?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "okaasan",
+                "someone's mother"
+            ],
+            "guid": "PIWu:<rj>D",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "otousan",
+                "someone's father"
+            ],
+            "guid": "yPe;;5wGY2",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "oniisan",
+                "someone's older brother"
+            ],
+            "guid": "F=y(w>$9_9",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "oneesan",
+                "someone's older sister"
+            ],
+            "guid": "hf<>f(+x[>",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "otoutosan",
+                "someone's younger brother"
+            ],
+            "guid": "kaxTkTgOq?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "imoutosan",
+                "someone's younger sister"
+            ],
+            "guid": "iZ2.;Pa5Dp",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "goshujin",
+                "someone's husband"
+            ],
+            "guid": "q]of@N>)c,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "okusan",
+                "someone's wife"
+            ],
+            "guid": "A24vK#YW*T",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "okosan",
+                "someone's child"
+            ],
+            "guid": "w&;-,HQs5c",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san no [family member someone's] wa oikutsu desu ka",
+                "how old is your [family member], [name]?"
+            ],
+            "guid": "Caigc+d5Ao",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[family member my] wa [age] sai desu",
+                "my [family member] is [age] years old"
+            ],
+            "guid": "hOI+WAVt-b",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[family member my] wa imasen",
+                "my [family member] is dead/ I don't have a [family member]"
+            ],
+            "guid": "q!nJ26cP_l",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "girino",
+                "step (father, mother)"
+            ],
+            "guid": "n!y|D<4^cU",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hitori",
+                "one (family member)"
+            ],
+            "guid": "fAx/*+jxpb",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "futari",
+                "two (family member)"
+            ],
+            "guid": "yc%dVDP<-Y",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yonin",
+                "four (family member)"
+            ],
+            "guid": "t)xy$b,${0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sannin",
+                "three (family member)"
+            ],
+            "guid": "Q0?h_>/2q|",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ane sannin",
+                "three older sisters"
+            ],
+            "guid": "Pg~qPHw@/s",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[sth] desu ne",
+                "[sth] is, right?/do you agree?"
+            ],
+            "guid": "kTZj9))=_(",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "daigaku",
+                "university"
+            ],
+            "guid": "bxxl.S[=2Z",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kyouju",
+                "professor"
+            ],
+            "guid": "lw5>XMktmg",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "benkyou chuu desu",
+                "I'm studying now"
+            ],
+            "guid": "AA;E$4yZN/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kareshi",
+                "boyfriend"
+            ],
+            "guid": "jR3cmMc9f8",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kanojo",
+                "girlfriend"
+            ],
+            "guid": "EB-V#ftI2j",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jitensha",
+                "bicicle"
+            ],
+            "guid": "v`MW?>vg~d",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "boushi",
+                "hat"
+            ],
+            "guid": "hgN(C:y1*?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "t-shatsu",
+                "t-shirt"
+            ],
+            "guid": "mlWJ5#TmiG",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "koukou",
+                "high school"
+            ],
+            "guid": "xeP&D(KYQU",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kotoba",
+                "word"
+            ],
+            "guid": "Cg:N%?bQm(",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mina san",
+                "everyone/ all of you"
+            ],
+            "guid": "c^b&nISA4S",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sukoshi",
+                "a little"
+            ],
+            "guid": "nh(uE1y7yM",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "chotto",
+                "a little"
+            ],
+            "guid": "FQjCr_4VQu",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[pointer] wa dare no [object] desu ka",
+                "whose [object] is [pointer]?"
+            ],
+            "guid": "OL2m$t=<Mr",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa [company] no shain desu",
+                "I'm working at [company]"
+            ],
+            "guid": "cA/?O@e%dG",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kami",
+                "paper, hair, God"
+            ],
+            "guid": "MFt%SA||ZX",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "katai",
+                "Hard, solid, stiff"
+            ],
+            "guid": "Ec;LAPNXQ/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ima",
+                "living room"
+            ],
+            "guid": "MCwsFym)bW",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mushi",
+                "bug"
+            ],
+            "guid": "EK;SBL>v1H",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "umi",
+                "sea"
+            ],
+            "guid": "d39_oM6--h",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yuki",
+                "snow"
+            ],
+            "guid": "BTu.~;S#,K",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yama",
+                "mountain"
+            ],
+            "guid": "lO%TvktU;m",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "me",
+                "eye"
+            ],
+            "guid": "L`-hmV1lb1",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaimono",
+                "shopping"
+            ],
+            "guid": "L#~8#v)ez.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaimono o shimashita",
+                "I went shopping"
+            ],
+            "guid": "Oxa+)W[E}G",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sakura",
+                "cherry blossom"
+            ],
+            "guid": "EaKX*]u[F/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kusuri",
+                "medicine"
+            ],
+            "guid": "qb8{X@;zsL",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rekishi",
+                "history"
+            ],
+            "guid": "trOXX}J-?O",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shiroi",
+                "white (adj)"
+            ],
+            "guid": "nO<uK0i;$^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kuroi",
+                "black (adj)"
+            ],
+            "guid": "q]_/Q[@R_,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kawa",
+                "river"
+            ],
+            "guid": "sLgGh4c/.{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mikan",
+                "tangerine"
+            ],
+            "guid": "fz?(-c]:@W",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tabemono",
+                "food"
+            ],
+            "guid": "b8rH1oW!-C",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "niku",
+                "meat"
+            ],
+            "guid": "t44>@HepMy",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sakana",
+                "fish"
+            ],
+            "guid": "C@[6l@N+0^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yasai",
+                "vegetables"
+            ],
+            "guid": "rQo5#SFw9r",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kudamono",
+                "fruit"
+            ],
+            "guid": "p=]D*p#*<:",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tamago",
+                "egg"
+            ],
+            "guid": "K4^H,eLcG,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pan",
+                "bread"
+            ],
+            "guid": "Gzt{}Mh/nu",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "misoshiru",
+                "miso soup"
+            ],
+            "guid": "kP4l,?uYOA",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gohan",
+                "rice"
+            ],
+            "guid": "IatS`&n%ea",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nani ga suki desu ka",
+                "what do you like?"
+            ],
+            "guid": "qjnPn*4m29",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tabemasu",
+                "to eat"
+            ],
+            "guid": "w$x,r_KJj2",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nomimono",
+                "drink"
+            ],
+            "guid": "L%cAUO^2P|",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nomimasu",
+                "to drink"
+            ],
+            "guid": "G}.3|Nbbhc",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "koohii",
+                "coffee"
+            ],
+            "guid": "o<1?h/CdDe",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "koocha",
+                "black tea"
+            ],
+            "guid": "ikW,H=!.lI",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gyuunyuu",
+                "cow's milk"
+            ],
+            "guid": "B>DVf~^1bx",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ocha",
+                "japanese (green) tea"
+            ],
+            "guid": "zVh8-s/(uV",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "juusu",
+                "juice"
+            ],
+            "guid": "hy<mV4Q[N#",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mizu",
+                "water"
+            ],
+            "guid": "J,m]z%P/[U",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "onegaishimasu",
+                "please (with a request)"
+            ],
+            "guid": "hVR%(ED1Un",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[drink], nomimasu ka",
+                "do you want a [drink]?"
+            ],
+            "guid": "pNb8}K1C1I",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Iie, kekkoo desu",
+                "no, thank you (to a proposal)"
+            ],
+            "guid": "DuG#}7G3[w",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nezumi",
+                "mice, rat"
+            ],
+            "guid": "pJ9H*rHj[@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashitachi",
+                "we (gender neutral)"
+            ],
+            "guid": "qHdB`o}`t9",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kono",
+                "this (+ noun)"
+            ],
+            "guid": "vPkX?UfvL1",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sono",
+                "that (+ noun)"
+            ],
+            "guid": "w5rBo~22WT",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ano",
+                "that over there (+ noun)"
+            ],
+            "guid": "CfyUfwN9L$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kono [thing] wa [name] san no [thing](optional) desu",
+                "this [thing] belongs to [name] / this is [name]'s thing"
+            ],
+            "guid": "Cdf#Hj**ns",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "otoko",
+                "male"
+            ],
+            "guid": "F/^Rq]Md[?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "onna",
+                "female"
+            ],
+            "guid": "wQC*K3#%EU",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "otokonohito",
+                "man"
+            ],
+            "guid": "rxpM+EFnW{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "otokonoko",
+                "boy"
+            ],
+            "guid": "eNBk?_GNQ)",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "onnanohito",
+                "woman"
+            ],
+            "guid": "k$e`O#|v5G",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "onnanoko",
+                "girl"
+            ],
+            "guid": "A/=R%{)/as",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "minami",
+                "south"
+            ],
+            "guid": "yJ,)tN&SbR",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kita",
+                "north"
+            ],
+            "guid": "Lm0FON&WTP",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "minasan",
+                "everybody"
+            ],
+            "guid": "MyC#qEM{7;",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa [food] ga suki desu",
+                "I like [food]"
+            ],
+            "guid": "f|[YsY:?HA",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa nani ga suki desu ka",
+                "what do you like [name]?"
+            ],
+            "guid": "GNvjt_^5j*",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa [food] ga suki desu ka",
+                "do you like [food], name?"
+            ],
+            "guid": "h%R!,%{2A}",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hai, watashi wa [food] ga suki desu",
+                "yes, I like [food]"
+            ],
+            "guid": "z+mAQyA6`.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Iie, watashi wa [food] wa suki janaidesu",
+                "no, I don't like [food]"
+            ],
+            "guid": "z;]4T2p/qm",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "suki",
+                "to like"
+            ],
+            "guid": "z2=rM|9YWc",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kirai",
+                "dislike, hate"
+            ],
+            "guid": "OOILF}q3!w",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "daisuki",
+                "like very much"
+            ],
+            "guid": "Q}$)r|2Rj*",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san wa doko ni sunde imasu ka",
+                "where do you like, [name]?"
+            ],
+            "guid": "L07~ZPrJgl",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa [place] ni sunde imasu",
+                "I live in [place]"
+            ],
+            "guid": "y+j!o~{M[S",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[country] no [city]",
+                "[city], [country] (Warsaw, Poland to clarify that it's not Warsaw, Indiana)"
+            ],
+            "guid": "cML.=l5o`k",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[name] san no kazoku wa nannin desu ka",
+                "how big is your family, [name]?"
+            ],
+            "guid": "kh.*v#1g/9",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi no kazoku wa [how many] desu",
+                "my family has [how many] members"
+            ],
+            "guid": "p?=s!S0>2<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dare ga imasu ka",
+                "what are the members of your family? (who's that)"
+            ],
+            "guid": "w)u&SycG#1",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "three older sisters",
+                "ane sannin"
+            ],
+            "guid": "G=%Di`{2:P",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ongaku",
+                "music"
+            ],
+            "guid": "t~Cd/9M{m=",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tegami",
+                "letter"
+            ],
+            "guid": "i@lWd.IjZS",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fujisan",
+                "Mount Fuji"
+            ],
+            "guid": "maa;7_mj=v",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "chizu",
+                "map"
+            ],
+            "guid": "ztEc9V}dI0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hanabi",
+                "fireworks"
+            ],
+            "guid": "P6:]^8]:hx",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "soroban",
+                "counting tray"
+            ],
+            "guid": "N?z>SOm>.{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "boku",
+                "I (male, formal/informal)"
+            ],
+            "guid": "I%^!8f>p+0",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "denwa",
+                "telephone"
+            ],
+            "guid": "GO@X(4F%|~",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kono uragiri mono ga",
+                "You damn traitors"
+            ],
+            "guid": "gg=*t^;lF)",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "toka kokan",
+                "Equivalent exchange&nbsp;"
+            ],
+            "guid": "L>TxntU{Rq",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "raion",
+                "lion"
+            ],
+            "guid": "G0FlY{Z^iR",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "araiguma",
+                "racoon"
+            ],
+            "guid": "ON^L0KWz28",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "saru",
+                "monkey"
+            ],
+            "guid": "u`N=Bkba-P",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ookami",
+                "wolf"
+            ],
+            "guid": "h#=uW=5I1S",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "inoshishi",
+                "boar"
+            ],
+            "guid": "hVE^MAG7/X",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "usagi",
+                "rabbit"
+            ],
+            "guid": "L4vL.FV4s8",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ushi",
+                "cow"
+            ],
+            "guid": "vls(tY=qZD",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "uma",
+                "horse"
+            ],
+            "guid": "s>][^ooHUz",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kirin",
+                "giraffe"
+            ],
+            "guid": "D`l;#CF.e]",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sai",
+                "rhino"
+            ],
+            "guid": "AJZ*i8)Eon",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shika",
+                "deer"
+            ],
+            "guid": "pu[B&.gL_9",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shimauma",
+                "zebra"
+            ],
+            "guid": "G-EOz#UiB(",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kuma",
+                "bear"
+            ],
+            "guid": "wH<)N{N./B",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaba",
+                "hippo"
+            ],
+            "guid": "kz3&e84D..",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "zoo",
+                "elephant"
+            ],
+            "guid": "OZFK[CyZiG",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tanuki",
+                "racoon dog"
+            ],
+            "guid": "t#BkU*S2]u",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "morumotto",
+                "guinea pig"
+            ],
+            "guid": "l`7}-LW^;k",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hato",
+                "pigeon"
+            ],
+            "guid": "lZTz61[M03",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "koara",
+                "koala"
+            ],
+            "guid": "Jx_8Bpi)V<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tora",
+                "tiger"
+            ],
+            "guid": "L_}gd!Iu}$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "namakemono",
+                "sloth"
+            ],
+            "guid": "x?O)c9V48o",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kitsune",
+                "fox"
+            ],
+            "guid": "Kf?%7XW@+a",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hamusutaa",
+                "hamster"
+            ],
+            "guid": "nfy<l_gaw_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "harinezumi",
+                "hedgehog"
+            ],
+            "guid": "gRu_O-vsP|",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "panda",
+                "panda"
+            ],
+            "guid": "c9O&t!,%e5",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hitsuji",
+                "sheep"
+            ],
+            "guid": "p[Ba,?<ppd",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gorira",
+                "gorilla"
+            ],
+            "guid": "tnt{yX/HO.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hebi",
+                "snake"
+            ],
+            "guid": "LXrlmQ[Y|/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "buta",
+                "pig"
+            ],
+            "guid": "tsH<8d:V>6",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mogura",
+                "mole"
+            ],
+            "guid": "MaV#$)yLS^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yagi",
+                "goat"
+            ],
+            "guid": "nyRng[,`.O",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kangaruu",
+                "kangaroo"
+            ],
+            "guid": "oQTrz&k]i]",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "arupaka",
+                "alpaka"
+            ],
+            "guid": "pjI]x+H&{F",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rakuda",
+                "camel"
+            ],
+            "guid": "os!vLa)?&V",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "risu",
+                "squirrel"
+            ],
+            "guid": "KNv5`:5H`E",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "roba",
+                "donkey"
+            ],
+            "guid": "ezvc:Og}J9",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "niwatori",
+                "hen"
+            ],
+            "guid": "BZqq@t*K!k",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "doobutsu",
+                "animal"
+            ],
+            "guid": "Fh70xGC1{F",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ichigo",
+                "strawberry"
+            ],
+            "guid": "x%27r,`Rq@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ringo",
+                "apple"
+            ],
+            "guid": "b4JJc#qtsF",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "orenji",
+                "orange"
+            ],
+            "guid": "jXp}F,#7A$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "momo",
+                "peach"
+            ],
+            "guid": "NOp+EQa!kP",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "budoo",
+                "grapes"
+            ],
+            "guid": "A2iz+,~nf<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "suika",
+                "watermelon"
+            ],
+            "guid": "D[Oc2G19i8",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaki",
+                "kaki"
+            ],
+            "guid": "fQ{fQ*dEUa",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nashi",
+                "pear"
+            ],
+            "guid": "O;%rNfLj}w",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kuri",
+                "chestnut"
+            ],
+            "guid": "z#_M2#J:u+",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sakuranbo",
+                "cherry"
+            ],
+            "guid": "iicB#O49{@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sumomo",
+                "plum"
+            ],
+            "guid": "s0*>!}p&8W",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "remon",
+                "lemon"
+            ],
+            "guid": "A>r-IISlm?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "banana",
+                "banana"
+            ],
+            "guid": "r_PuFa_KJ5",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kiui",
+                "kiwi"
+            ],
+            "guid": "qopr(Qaaek",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "painappuru",
+                "pineapple"
+            ],
+            "guid": "GWQY~r=jTB",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "meron",
+                "melon"
+            ],
+            "guid": "Dh~bOgufTT",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "papaiya",
+                "papaya"
+            ],
+            "guid": "OI/6j}3bxr",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mangoo",
+                "mango"
+            ],
+            "guid": "K{m8jEA,gW",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "daikon",
+                "radish"
+            ],
+            "guid": "c!ej~#Rye$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "edamame",
+                "soy beans"
+            ],
+            "guid": "bL+1J>l|FW",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kyuuri",
+                "cucumber"
+            ],
+            "guid": "eeqe+}[-,,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "negi",
+                "leek"
+            ],
+            "guid": "ch(W[D*:Ql",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "retasu",
+                "lettuce"
+            ],
+            "guid": "fC>DVdzV]7",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kyabetsu",
+                "cabbage"
+            ],
+            "guid": "jO{<<E4AMR",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jagaimo",
+                "potato"
+            ],
+            "guid": "AZ,7k3q$^$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kabu",
+                "turnip"
+            ],
+            "guid": "gQ})N3^Bv_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kabocha",
+                "pumpkin"
+            ],
+            "guid": "lnjtrh>_)+",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shiitake",
+                "mushroom"
+            ],
+            "guid": "u:&O;E70dW",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ninjin",
+                "carrot"
+            ],
+            "guid": "gIV}Wl.6W6",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "piiman",
+                "green pepper"
+            ],
+            "guid": "BWqqrpYob^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "satsumaimo",
+                "sweet potato"
+            ],
+            "guid": "q&}:f=,P4r",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "takenoko",
+                "bamboo sticks"
+            ],
+            "guid": "L%G:{I<3x*",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ninniku",
+                "garlic"
+            ],
+            "guid": "KZm:Yq[E.,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "burokkorii",
+                "broccoli"
+            ],
+            "guid": "gbIz5Y@z_/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nasu",
+                "eggplant"
+            ],
+            "guid": "H&y=rxqC-|",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "asuparagasu",
+                "asparagus"
+            ],
+            "guid": "FlRDxhat(~",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tamanegi",
+                "onion"
+            ],
+            "guid": "e`lQf(Vm,n",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "toomorokoshi",
+                "corn"
+            ],
+            "guid": "popS.R9k{!",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hakusai",
+                "chinese cabbage"
+            ],
+            "guid": "wdhl:oU?e>",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "toogarashi",
+                "chilli pepper"
+            ],
+            "guid": "F|FGUN(KS^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hoorensoo",
+                "spinach"
+            ],
+            "guid": "gf?iu~_,Y.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tomato",
+                "tomato"
+            ],
+            "guid": "DDh~3qV,M%",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gaigoku",
+                "foreign"
+            ],
+            "guid": "g<B4C[[:VP",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gaigokujin",
+                "alien"
+            ],
+            "guid": "D[7#dAcmy1",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gaigoku hito",
+                "foreigner"
+            ],
+            "guid": "Pb4>{=``12",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Okimasu",
+                "To wake up"
+            ],
+            "guid": "J7,Bg:(T{`",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Yomimasu",
+                "To read"
+            ],
+            "guid": "CKNchA@F*2",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Asa-gohan",
+                "Breakfast"
+            ],
+            "guid": "qV.Jgld~gT",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kaisha/gakkoo ni ikimasu",
+                "Go to work/school"
+            ],
+            "guid": "qLQN[x.PWR",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shigoto o shimasu",
+                "To work"
+            ],
+            "guid": "f)g[pT$ff]",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hiru-gohan",
+                "Lunch"
+            ],
+            "guid": "eZCVLI),OC",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Uchi ni kaerimasu",
+                "Get back home"
+            ],
+            "guid": "baMQ@nwS6_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ban-gohan",
+                "Dinner"
+            ],
+            "guid": "b!vmqQ4rC/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nikki",
+                "Diary"
+            ],
+            "guid": "r%.E-a(e.l",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Burogu",
+                "Blog"
+            ],
+            "guid": "q{:lOR|.ph",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kakimasu (O)",
+                "To write (part.)"
+            ],
+            "guid": "r_PDqVLjqb",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ofuro ni hairimasu",
+                "To take a bath"
+            ],
+            "guid": "o@XkLsRGg}",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shawaa o abimasu",
+                "To take a shower"
+            ],
+            "guid": "BW-<AzkcCA",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nemasu",
+                "To sleep"
+            ],
+            "guid": "Gy,3ID!fLU",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ichi-ji",
+                "One o clock"
+            ],
+            "guid": "Hyw[/c5Ku{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ni-ji",
+                "Two o clock"
+            ],
+            "guid": "OO5JZ$O1S,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "San-ji",
+                "Three o clock"
+            ],
+            "guid": "x5$2Q%f!O*",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Yo-ji",
+                "Four o clock"
+            ],
+            "guid": "sP>-oLxC(f",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Go-ji",
+                "Five o clock"
+            ],
+            "guid": "J[QhlCa7v@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Roku-ji",
+                "Six o clock"
+            ],
+            "guid": "Dy.j2[Ez$)",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shichi-ji",
+                "Seven o clock"
+            ],
+            "guid": "tL;w)@i8+N",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hachi-ji",
+                "Eight o clock"
+            ],
+            "guid": "Mo8*dHGtH9",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ku-ji",
+                "Nine o clock"
+            ],
+            "guid": "NME400r{8d",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Juu-ji",
+                "Ten o clock"
+            ],
+            "guid": "G(3V-yL%p!",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Juu-ichi-ji",
+                "Eleven o clock"
+            ],
+            "guid": "oFE+D;lWA9",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Juu-ni-ji",
+                "Twelve o clock"
+            ],
+            "guid": "z4(-;JJU[r",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Han",
+                "Thirty (o clock), and a half"
+            ],
+            "guid": "j?Fu65I%Ga",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kaimasu (o)",
+                "To buy/shop (part.)"
+            ],
+            "guid": "ygo`vq<o!.",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tsukaimasu (o)",
+                "To use (part.)"
+            ],
+            "guid": "eX7u*#0+^~",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[person] to aimasu",
+                "To meet [person]"
+            ],
+            "guid": "C208.R&Ies",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tsukurimasu (o)",
+                "To make (o)"
+            ],
+            "guid": "M28I6+L{HG",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[place] ni kaerimasu",
+                "To return to [place]"
+            ],
+            "guid": "d!O{a^UocT",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shashin wo torimasu",
+                "To take a photo"
+            ],
+            "guid": "tx&A~&8^*g",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Okurimasu (o)",
+                "To send (part.)"
+            ],
+            "guid": "rtEj!?./fy",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nomimasu (o)",
+                "To drink (part.)"
+            ],
+            "guid": "N)6bL9E?)]",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Yasumimasu (x)",
+                "To rest (part.)"
+            ],
+            "guid": "n8#Y+!p&*&",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Asobimasu (x)",
+                "To play (part.)"
+            ],
+            "guid": "qFnNcdlIt;",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kinoo",
+                "Yesterday"
+            ],
+            "guid": "GlcMI`2nD1",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kyoo",
+                "Today"
+            ],
+            "guid": "ENVWEEQf{i",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ashita",
+                "Tomorrow"
+            ],
+            "guid": "P6VZup[|Sk",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Getsuyoobi",
+                "Monday"
+            ],
+            "guid": "z^Kf`j7:&$",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kayoobi",
+                "Tuesday"
+            ],
+            "guid": "eAt/wYN+K[",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Suiyoobi",
+                "Wednesday"
+            ],
+            "guid": "cYyk(vY;e~",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mokuyoobi",
+                "Thursday"
+            ],
+            "guid": "P}:<[zo2u_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kin’yoobi",
+                "Friday"
+            ],
+            "guid": "D&:i24K5)B",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Doyoobi",
+                "Saturday"
+            ],
+            "guid": "CMrGHKR_Dv",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nichiyoobi",
+                "Sunday"
+            ],
+            "guid": "djf*6S{L2!",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Senshuu",
+                "Last week"
+            ],
+            "guid": "LXba0Nfr<+",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Konshuu",
+                "This week"
+            ],
+            "guid": "L_>]a>882?",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Raishuu",
+                "Next week"
+            ],
+            "guid": "f,>e@(]v%h",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Amari",
+                "Not so much, rarely"
+            ],
+            "guid": "JH4_/ZlJlD",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zenzen",
+                "Never"
+            ],
+            "guid": "dFJD@s(k.D",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mainichi",
+                "Always, a lot"
+            ],
+            "guid": "Frlnb07(Bt",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Yoku",
+                "Often"
+            ],
+            "guid": "K,FT>=y&a4",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tokidoki",
+                "From time to time"
+            ],
+            "guid": "h%E3>D9o=<",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Itsumo",
+                "Never"
+            ],
+            "guid": "lW[GEp}-ow",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ima nanji desu ka",
+                "What time is it?"
+            ],
+            "guid": "P>Xm8=+K]m",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Asa",
+                "Morning"
+            ],
+            "guid": "P+]W!AQ0hv",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hiru",
+                "Noon, 11-17"
+            ],
+            "guid": "u|.Lw9^V%q",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Juugata",
+                "Evening"
+            ],
+            "guid": "MD2_6*+&lG",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Yoru",
+                "Night"
+            ],
+            "guid": "g4RtMs&6iN",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gozen",
+                "AM"
+            ],
+            "guid": "rSv2m#GB}s",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gogo",
+                "PM"
+            ],
+            "guid": "u7LWZ{U]|x",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1 PM",
+                "Gogo ichiji"
+            ],
+            "guid": "Gz-T)pJFh*",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hidari",
+                "Left"
+            ],
+            "guid": "IJ-s;bptns",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Migi",
+                "Right"
+            ],
+            "guid": "t(h$>d(Wxa",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Undoo",
+                "Exercise"
+            ],
+            "guid": "M)iF}hw[RR",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kaji",
+                "Chores"
+            ],
+            "guid": "mr4j>Bi#&J",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ee",
+                "Polite yes"
+            ],
+            "guid": "z$P64JS<]t",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[person] san wa itsumo nanji ni [verb] ka",
+                "What time do you [verb], [person]?"
+            ],
+            "guid": "Di@]3Tr;`K",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Watashi wa itsumo [time] ni [verb]",
+                "I [verb] at [time]"
+            ],
+            "guid": "Pa?hloR.nZ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Goro",
+                "Around (time)"
+            ],
+            "guid": "fkE:iun80_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa zenzen shinbun wa yomimasen",
+                "I never read newspapers"
+            ],
+            "guid": "Qi*Cxn7BbH",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Watashi wa mainichi shinbun o yomimasu",
+                "I always read newspapers"
+            ],
+            "guid": "NkCYrg{(%T",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[person] san wa yoku shinbun o yomimasu ka",
+                "How often do you read newspapers, [person]?"
+            ],
+            "guid": "Huj#ouPUQ@",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[person] san wa itsu koohii o nomimasu ka",
+                "When do you drink coffee, [person]?"
+            ],
+            "guid": "DHI<M(x1WZ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Watashi wa asa koohii o nomimasu",
+                "I drink coffee in the morning"
+            ],
+            "guid": "xn]{iajQ0^",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Omoimasu",
+                "To think"
+            ],
+            "guid": "M_j|DP2Dw,",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[time 1] kara [time 2] made",
+                "From [time 1] to [time 2]"
+            ],
+            "guid": "nmQ58wBqCf",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Watashi wa [food] o tsukurimasu",
+                "I cook [food]"
+            ],
+            "guid": "OVb_<e~o?4",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tabemashita",
+                "Past tense of to eat"
+            ],
+            "guid": "C>PSNrPDYZ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tomodachi",
+                "Friends"
+            ],
+            "guid": "i[:/eHgj3w",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Shokuji",
+                "Meal"
+            ],
+            "guid": "cGVUrST4h{",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kakimasu",
+                "To write"
+            ],
+            "guid": "b}pSZ=m01j",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kaimasu",
+                "To buy/shop"
+            ],
+            "guid": "h,#FBFQjy6",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mimasu",
+                "To watch/look at"
+            ],
+            "guid": "hL3*4Uc5ss",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Chizu",
+                "Map"
+            ],
+            "guid": "u{p88~|`#B",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kikimasu",
+                "To listen"
+            ],
+            "guid": "n!lEseYM]&",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ongaku",
+                "Music"
+            ],
+            "guid": "E0+rNR:hq!",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Terebi",
+                "TV"
+            ],
+            "guid": "d.p(/@syCC",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zashi",
+                "Magazine"
+            ],
+            "guid": "LHW86Fk1*U",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shimasu",
+                "to do"
+            ],
+            "guid": "r[T3T:Q<@`",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tsukurimasu",
+                "to make (f. e. dinner)"
+            ],
+            "guid": "L=M]GGKg<Z",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "torimasu",
+                "to make"
+            ],
+            "guid": "BlJ[SEk*c`",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "yoku piano o hikimasu ka",
+                "when do you play the piano?"
+            ],
+            "guid": "Te5:#(>g>",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[konshuu/raishuu/kyou/ashita] kaisha ni ikimasu",
+                "I go to work [this week/next week/today/tomorrow]"
+            ],
+            "guid": "zO%Rbq=@bl",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[day of week/date] ni kaisha ni ikimasu",
+                "I go to work on [day of week/date]"
+            ],
+            "guid": "qFl*NU`StB",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ashita oyobimasu ka",
+                "do you swim tomorrow?"
+            ],
+            "guid": "F^!X6eT=xL",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aimasu (to)",
+                "to meet (with)"
+            ],
+            "guid": "KU~WTI,*$s",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kaerimasu (ni)",
+                "To come back (to)"
+            ],
+            "guid": "f1q`^7XP:_",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Okurimasu (o/ni)",
+                "To send (something/to someone)"
+            ],
+            "guid": "sZ=xY35|HA",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Yomimasu (o)",
+                "To read (something)"
+            ],
+            "guid": "L+=e_]9@).",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;Osobimasu (x)",
+                "To play"
+            ],
+            "guid": "u|IXfg`L+I",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kakimasu (o)",
+                "To write (something)"
+            ],
+            "guid": "xn@~Xv-jBn",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hikimasu (o)",
+                "To play (something)"
+            ],
+            "guid": "dZB)>2M+TN",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Oyobimasu (x)",
+                "To swim"
+            ],
+            "guid": "QO?b-9E_e3",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hanashimasu (to)",
+                "To talk (to)"
+            ],
+            "guid": "E5hpjG1|[Y",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ikimasu (ni)",
+                "To go (to)"
+            ],
+            "guid": "FTS}!lgOW/",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tabemasu (o)",
+                "To eat (something)"
+            ],
+            "guid": "BHUPJ/n;|r",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mimasu (o)",
+                "To watch (something)"
+            ],
+            "guid": "k#3Wd!j|UP",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Oshiemasu (o/ni)",
+                "To be taught/to teach"
+            ],
+            "guid": "zGmmPik]-5",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kimasu (o)",
+                "to put on (something)"
+            ],
+            "guid": "pn8=Q]$8^#",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "party itsu ga ii desu ka",
+                "when should we have a party?"
+            ],
+            "guid": "s<oRz+o^bQ",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "party wa kinyoobi ga ii desu",
+                "the party should be on Friday"
+            ],
+            "guid": "qql-+-w((X",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kinyoobi wa dame desu",
+                "friday doesn't work for me"
+            ],
+            "guid": "HVoL?]CYa[",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[day] wa doudesuka",
+                "what about [day]"
+            ],
+            "guid": "@;SP7&=w!",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "iidesuyo",
+                "[day] is ok for me as well"
+            ],
+            "guid": "p#m6oWPN59",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kimasu",
+                "come (to me)"
+            ],
+            "guid": "E5O#;Vz`r5",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ikimasu",
+                "go (I go somewhere)"
+            ],
+            "guid": "vh$`HQL:0e",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaerimasu",
+                "return"
+            ],
+            "guid": "upfq349mt)",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[thing] wa ikura desu ka",
+                "how much does [thing] cost?"
+            ],
+            "guid": "j!%ES*m^>3",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[thing] wa [price] en desu",
+                "[thing] costs [price] yen"
+            ],
+            "guid": "pFY~!vcP%s",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[person] wa nanjikan nemasu ka",
+                "how long do you sleep [person]?"
+            ],
+            "guid": "NnL(Gcm[zI",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "watashi wa kujikan nemase",
+                "I sleep for 9 hours"
+            ],
+            "guid": "c@Vo!z%YVq",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nayoobi",
+                "what day"
+            ],
+            "guid": "K>q.55a82K",
+            "note_model_uuid": "c21539fe-f591-11ee-98e1-0780a57cd84b",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
